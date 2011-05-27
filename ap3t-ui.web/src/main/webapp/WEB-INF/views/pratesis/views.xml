@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="pratesis/index">
+        <put-attribute name="body" value="/WEB-INF/views/pratesis/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="pratesis/show">
+        <put-attribute name="body" value="/WEB-INF/views/pratesis/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="pratesis/edit">
+        <put-attribute name="body" value="/WEB-INF/views/pratesis/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/pratesis/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="pratesis/create">
+        <put-attribute name="body" value="/WEB-INF/views/pratesis/create.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/pratesis/_form_scripts.jsp"/>
+    </definition>
+</tiles-definitions>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+        "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+    <definition extends="administrator" name="topik/index">
+        <put-attribute name="body" value="/WEB-INF/views/topik/index.jsp"/>
+    </definition>
+    <definition extends="administrator" name="topik/show">
+        <put-attribute name="body" value="/WEB-INF/views/topik/show.jsp"/>
+    </definition>
+    <definition extends="administrator" name="topik/edit">
+        <put-attribute name="body" value="/WEB-INF/views/topik/edit.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/topik/_form_scripts.jsp"/>
+    </definition>
+    <definition extends="administrator" name="topik/create">
+        <put-attribute name="body" value="/WEB-INF/views/topik/create.jsp"/>
+        <put-attribute name="scripts" value="/WEB-INF/views/topik/_form_scripts.jsp"/>
+    </definition>
+</tiles-definitions>
