@@ -11,6 +11,7 @@
         <module>ap3t-config</module>
         <module>ap3t-domain</module>
         <module>ap3t-service.impl</module>
+        <module>ap3t-ui.desktop</module>
         <module>ap3t-ui.springmvc</module>
         <module>ap3t-ui.web</module>
     </modules>
